@@ -1,0 +1,502 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": 
+    {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah",
+        "I would",
+        "I'd like that",
+        "I wouldn't mind",
+        "I would not mind",
+        "sure thing",
+        "yeah",
+        "yea",
+        "certainly",
+        "absolutely",
+        "totally",
+        "mhm",
+        "it is",
+        "that's right",
+        "that is right",
+        "uh huh",
+        "uh-huh"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "no, I'm okay",
+        "not right now",
+        "not this time",
+        "nah",
+        "not this moment",
+        "not now",
+        "not what I wanted",
+        "not what",
+        "it's not",
+        "it isn't",
+        "isn't"
+      ]
+    },
+
+    "hotel_low_price": {
+      "includes": [
+        "I'd like to book a cheap hotel",
+        "something cheap",
+        "has a low price",
+        "low priced",
+        "cheap",
+        "inexpensive",
+        "cheapest",
+        "I want the cheapest hotel possible",
+        "book the cheapest hotel you can find",
+        "let's go with the low price range",
+        "low"
+      ]
+    },
+
+    "hotel_medium_price": {
+      "includes": [
+        "I'd like to book a cheapish hotel",
+        "something not overly expensive",
+        "not too expensive",
+        "medium",
+        "medium priced",
+        "I want to stay at a hotel that is medium priced",
+        "I don't want to stay at an expensive hotel",
+        "not too expensive",
+        "book a medium priced hotel",
+        "let's go with the medium price range"
+      ]
+    },
+
+    "hotel_high_price": {
+      "includes": [
+        "I'd like to book an expensive hotel",
+        "something expensive",
+        "has an expensicve price",
+        "expensive high range",
+        "expensive",
+        "most expensive",
+        "luxury",
+        "I want the most expensive hotel possible",
+        "book the most expensive hotel you can find",
+        "book the most luxurious hotel you can find",
+        "luxurious",
+        "let's go with the high price range",
+        "high",
+        "high price range"
+      ]
+    },
+
+    "cost_doesnt_matter": {
+      "includes": [
+        "cost doesn't matter",
+        "don't care",
+        "cost doesn't",
+        "no matter the cost",
+        "I don't care about the price",
+        "don't care about the pricing",
+        "don't care about the prices",
+        "price isn't a deal breaker",
+        "not a deal breaker",
+        "isn't a deal breaker",
+        "whatever price range",
+        "the price range can be whatever",
+        "I just want whatever hotel is available",
+        "I don't care",
+        "whatever hotel is available"
+      ]
+    },
+
+    "butterfly": {
+      "includes": [
+        "butterfly",
+        "butterfly hotel",
+        "resort",
+        "butterfly resort",
+        "I wanna hear more about the Butterfly Hotel",
+        "I wanna know more about the Butterfly Hotel",
+        "tell me more about the Butterfly Hotel",
+        "the butterfly one"
+      ]
+    },
+
+    "hello_hotel": {
+      "includes": [
+        "hello hotel",
+        "hello one",
+        "I wanna hear more about the Hello Hotel",
+        "I wanna know more about the Hello Hotel",
+        "tell me more about the Hello Hotel",
+        "the hello one"
+      ]
+    },
+
+    "valley": {
+      "includes": [
+        "valley",
+        "valley hotel",
+        "great valley",
+        "great valley hotel",
+        "great valley inn",
+        "I wanna hear more about the Great Valley Inn",
+        "I wanna know more about the great valley",
+        "tell me more about the Great Valley",
+        "great valley in",
+        "valley in"
+      ]
+    },
+
+    "sunflower": {
+      "includes": [
+        "sunflower",
+        "sunflower hotel",
+        "sunflower inn",
+        "I wanna hear more about the sunflower inn",
+        "I wanna know more about the sunflower",
+        "tell me more about the sunflower",
+        "sunflower in",
+        "sunflower inn sound nice"
+      ]
+    },
+
+    "dandelion": {
+      "includes": [
+        "dandelion",
+        "dandelion hotel",
+        "dandelion inn",
+        "I wanna hear more about the dandelion inn",
+        "I wanna know more about the dandelion",
+        "tell me more about the dandelion",
+        "dandelion in",
+        "dandelion inn sound nice"
+      ]
+    },
+
+    "book": {
+      "includes": [
+        "book",
+        "booking",
+        "I want to book this one",
+        "book this one",
+        "book this hotel",
+        "proceed to booking",
+        "I wanna book now",
+        "book now"
+      ]
+    },
+
+
+    "bye": 
+    {
+      "includes":[
+        "bye",
+        "good bye",
+        "thanks bye",
+        "nevermind",
+        "forget about it",
+        "we're done",
+        "take it easy",
+        "peace out",
+        "peace",
+        "that's it",
+        "I'm good",
+        "all good",
+        "that's all",
+        "no that's it"
+      ]
+    }
+   },
+
+  
+  "entities": 
+  {
+    "month":
+    {
+      "open_set": false,
+      "values": [
+        {
+          "value": "January"
+        },
+        {
+          "value": "February"
+        },
+        {
+          "value": "March"
+        },
+        {
+          "value": "April"
+        },
+        {
+          "value": "May"
+        },
+        {
+          "value": "June"
+        },
+        {
+          "value": "July"
+        },
+        {
+          "value": "August"
+        },
+        {
+          "value": "September"
+        },
+        {
+          "value": "October"
+        },
+        {
+          "value": "November"
+        },
+        {
+          "value": "December"
+        }
+      ]
+    },
+    "city": {
+      "open_set": true,
+      "values": [
+        {
+          "value": "New York city",
+          "synonyms": ["NYC"]
+        },
+        {
+          "value": "Miami"
+        },
+        {
+          "value": "Orlando"
+        },
+        {
+          "value": "Georgetown"
+        },
+        {
+          "value": "Washington DC",
+          "synonyms": ["DC"]
+        },
+        {
+          "value": "DC"
+        },
+        {
+          "value": "Seattle"
+        },
+        {
+          "value": "Phoenix"
+        },
+        {
+          "value": "Philadelphia"
+        },
+        {
+          "value": "Houston"
+        },
+        {
+          "value": "Chicago"
+        },
+        {
+          "value": "LA",
+          "synonyms": ["Los Angeles"]
+        },
+        {
+          "value": "Las Vegas"
+        },
+        {
+          "value": "Dallas"
+        },
+        {
+          "value": "Oklahoma City"
+        },
+        {
+          "value": "San Diego"
+        },
+        {
+          "value": "San Antonio"
+        }
+      ]
+    },
+    "state": {
+      "open_set": true,
+      "values": [
+        {
+          "value": "New York state",
+          "synonyms": ["NY state"]
+        },
+        {
+          "value": "Washington state",
+          "synonyms": ["Washington"]
+        },
+        {
+          "value": "Texas"
+        },
+        {
+          "value": "Florida"
+        },
+        {
+          "value": "Californina",
+          "synonyms": ["CA"]
+        },
+        {
+          "value": "Ohio"
+        },
+        {
+          "value": "Kansas"
+        },
+        {
+          "value": "Oklahoma"
+        },
+        {
+          "value": "Philadelphia"
+        },
+        {
+          "value": "Houston"
+        },
+        {
+          "value": "Chicago"
+        },
+        {
+          "value": "Pennsylvania",
+          "synonyms": ["PA"]
+        }
+      ],
+      "includes": [
+        "I'd like to book a hotel in (Miami)[city], (Florida)[state]",
+        "I'll take a (New York)[city] now",
+        "I'd like to book a hotel in (Los Angeles)[city], (Califonia)[state]",
+        "I'd like to book a hotel in (LA)[city], (CA)[state]",
+        "I'd like to book a hotel in (LA)[city], (California)[state]",
+        "I'd like to book a hotel in (Pittsburg)[city], (PA)[state]",
+        "I wanna find a hotel in (Seattle)[city], (Washington DC)[state]",
+        "I wanna find a hotel in (Orlando)[city], (Florida)[state]",
+        "I'm going to (Philadelphia)[city], (PA)[state]",
+        "I'm traveling to (Miami)[city], (Florida)[state]"
+      ]
+    },
+
+    "proximity": 
+    {
+      "open_set": true,
+      "values": [
+         {
+          "value": "close to the center",
+          "synonyms": ["close", "by the center", "near the center", "in the center", "close by the center", "closer", "closest"]
+         },         
+         {
+          "value": "far from the center",
+          "synonyms": ["further from the center", "far from center", "fartherst"]
+         }
+       ],
+      "includes": [
+        "I want the hotel to be as (close to the center)[proximity] as possible",
+        "I want the hotel to be as (close to the center)[proximity] as close as it can be",
+        "The (closer)[proximity:close] the better",
+        "I want the hotel to be the (closest)[proximity] one to the center",
+        "I want the hotel to be as (far)[proximity] as possible",
+        "I want the hotel to be as (far)[proximity] as it can be",
+        "The (farther)[proximity] the better",
+        "I want the hotel to be the (fartherst)[proximity] one from the center"
+      ]
+    },
+
+    "free": 
+    {
+      "open_set": true,
+      "values": [
+         {
+          "value": "free parking",
+          "synonyms": ["free parking", "parking for free", "near the center"]
+         },   
+         {
+          "value": "free parking and wi-fi",
+          "synonyms": ["free parking and Wi-Fi", "parking and Wi-Fi for free", "both", "free wi-fi and parking"]
+         },       
+         {
+          "value": "free Wi-Fi",
+          "synonyms": ["free wifi", "free WiFi", "wi-fi for free"]
+         }
+       ],
+      "includes": [
+        "I want the hotel to have (free Wi-Fi)[free]",
+        "I wanna to have (wi-fi for free)[free]",
+        "(free Wi-Fi)[free] would be nice",
+        "I want the hotel to have (free parking)[free]",
+        "I wanna to have (parking for free)[free]",
+        "(free parking)[free] would be nice",
+        "I want the hotel to have both (free parking and wi-fi)[free]",
+        "I wanna to have (Wi-Fi and parking for free)[free]",
+        "Having (free parking and Wi-Fi)[free] would be nice",
+        "I wanna to have (both)[free]"
+      ]
+    },
+
+      "number_value": 
+      {
+        "open_set": true,
+        "values": [
+          {
+            "value": "1",
+            "synonyms": ["first", "1st", "the first", "the 1st", "one"]
+          },
+          {
+            "value": "2",
+            "synonyms": ["second", "2nd", "the second", "the 2nd", "two"]
+          },
+          {
+            "value": "3",
+            "synonyms": ["third", "3rd", "the third", "the 3rd", "three"]
+          },
+          {
+            "value": "4",
+            "synonyms": ["fourth", "4th", "the fourth", "the 4th", "four"]
+          },
+          {
+            "value": "5",
+            "synonyms": ["fifth", "5th", "the fifth", "the 5th", "five"]
+          },
+          {
+            "value": "6",
+            "synonyms": ["sixth", "6th", "the sixth", "the 6th", "six"]
+          }
+        ],
+        "includes": [
+          "There's going to be (four)[number_value:people] people with me",
+          "just (one)[number_value:people] person",
+          "(two)[number_value:people] people",
+          "(four)[number_value:stars] stars",
+          "I want the hotel to have (five)[number_value:stars] stars",
+          "hotel to have (four)[number_value:stars] stars at least",
+          "There's going to be (two)[number_value:people] people traveling",
+          "I want the check in date to be (July)[month] (fifth)[number_value:date]",
+          "I want the check-in date to be (January)[month] (the third)[number_value:date]",
+          "I want the check out date to be (March)[month] (first)[number_value:date]",
+          "I want the check out date to be on (the fourth)[number_value:date] of (May)[month]",
+          "I want to check in to the hotel on (the 5th)[number_value:date] of (February)[month]",
+          "There's going to be just (3)[number_value:people] people traveling in total",
+          "(May)[month] (fifth)[number_value:date]",
+          "(the first)[number_value:date] of (February)[month]",
+          "I want the hotel to have (4)[number_value:stars] stars",
+          "The hotel needs to have at least (4)[number_value:stars] stars"
+        ]
+      }
+  }
+}
